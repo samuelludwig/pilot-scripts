@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# here we go :^)
+
+echo "hi mr $1 $2, I live at $0"

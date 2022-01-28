@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Add a new pilot script
+
+pilot $@ --new
