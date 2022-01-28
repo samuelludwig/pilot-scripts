@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+echo "hi, my name is $0, my first arg is '$1', and my second is '$2'"

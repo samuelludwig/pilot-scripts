@@ -1,0 +1,5 @@
+#!/usr/env/bash
+
+# Kill any already-running instances of the netrepl (they can go zombie)
+pkill -f janet-netrepl
+bash -c "exec -a janet-netrepl 'pilot janet netrepl start & 1> /dev/null 2> /dev/null'"

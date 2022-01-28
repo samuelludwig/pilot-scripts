@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# alright
+#
+# <Write your extended description here>
+
+echo hi
+
+nix --version
